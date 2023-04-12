@@ -19,7 +19,7 @@ const { window } = new JSDOM(html);
 global.document = window.document;
 
 // Import the plain vanilla JavaScript program
-const myFunction = require('./myScript');
+const myFunction = require('./myScript.js');
 
 // Write the Jest test
 describe('myFunction', () => {
